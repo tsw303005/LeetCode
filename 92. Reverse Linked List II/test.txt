@@ -1,0 +1,2 @@
+方法1. prev, cur, next 去 implement 交換的動作
+方法2. 或是 implement 一個指標 prev 每次把 cur 現在所指的位置讓 prev-> next = cur, 然後 cur = cur->next
