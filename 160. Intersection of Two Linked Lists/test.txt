@@ -1,0 +1,1 @@
+先 count 兩個不一樣長的 linked list 比較誰比較短，然後讓長的 linked list 的先移到跟短的 linked list 一樣長再開始比較
