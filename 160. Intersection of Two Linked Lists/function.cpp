@@ -6,6 +6,13 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+#include <iostream>
+
+typedef struct ListNode {
+    int val;
+    ListNode* next;
+};
+
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {

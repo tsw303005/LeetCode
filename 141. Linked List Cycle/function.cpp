@@ -6,6 +6,12 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+#include <iostream>
+typedef struct ListNode {
+    int val;
+    ListNode* next;
+};
+
 class Solution {
 public:
     bool hasCycle(ListNode *head) {

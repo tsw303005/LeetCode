@@ -11,6 +11,11 @@
 #include <iostream>
 using namespace std;
 
+typedef struct ListNode {
+  int val;
+  ListNode* next;
+};
+
 class Solution {
 public:
     void reverse(ListNode* start, ListNode* end, int k) {

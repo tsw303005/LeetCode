@@ -8,6 +8,12 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+#include <iostream>
+struct ListNode {
+    int val;
+    ListNode* next;
+};
+
 class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int left, int right) {

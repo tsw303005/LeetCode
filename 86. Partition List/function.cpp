@@ -8,6 +8,13 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+#include <iostream>
+
+typedef struct ListNode {
+    int val;
+    ListNode* next;
+};
+
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
