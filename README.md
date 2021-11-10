@@ -1,4 +1,4 @@
 # LeetCode
 
 - These are some solution of Leetcode problems.
-- I seperate these problems according to their difficulty and theme.
+- If you have any suggestion, please feel free to contact me with email.
