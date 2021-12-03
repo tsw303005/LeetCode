@@ -1,0 +1,4 @@
+dp 版本的 code 是用 bottom up 方式去實作
+dp array 的範圍 dp[0][n+1] 代表是範圍 1 ~ n 的答案
+所以在 nums 的前後都個加 1
+但我自己也還沒有到很了解 xd
