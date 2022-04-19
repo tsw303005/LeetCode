@@ -1,6 +1,14 @@
 #include <iostream>
 using namespace std;
 
+/*
+用單調遞增去想
+當在跑 inorder 的時候紀錄上一個數字是多少
+如果下一個要列印的數字比上一個還要小，就去更新 left, right
+只有第一次遇到的時候要更新 left
+後面都是更新 right
+*/
+
 struct TreeNode
 {
   int val;
